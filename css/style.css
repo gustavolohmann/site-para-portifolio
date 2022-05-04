@@ -1,0 +1,420 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-style: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p {
+    line-height: 20px;
+}
+
+
+
+/*cabecalho*/
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    border-bottom: 2px solid rgb(226, 225, 225);
+}
+
+.logo img {
+    width: 200px;
+    cursor: pointer;
+}
+
+.lista-menu {
+    display: flex;
+    justify-content: center;
+    padding: 0 50px;
+
+}
+
+.lista-menu ul {
+    display: flex;
+    gap: 30px;
+    font-size: 19px;
+    text-transform: uppercase;
+}
+
+.lista-menu ul li a {
+    color: rgb(3, 3, 95);
+}
+
+.lista-menu ul li a:hover {
+    color: #000;
+}
+
+/*cabecalho*/
+
+/*body-head*/
+.div-bodyhead-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+    margin: 200px 0;
+}
+
+.img-bodyhead-1 img {
+    width: 400px;
+    box-shadow: 3px 3px rgb(3, 3, 95);
+}
+
+.paragrafo-div-bodyhead-1 {
+    width: 500px;
+    text-align: start;
+    font-size: 20px;
+    color: #1c1c1c;
+    padding: 0 20px;
+}
+
+.paragrafo-div-bodyhead-1 h1 {
+    padding: 10px 0;
+    color: rgb(3, 3, 95);
+    font-weight: bolde;
+}
+
+/*segunda parte dp body head*/
+.div-bodyhead-2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 0 50px;
+    margin-bottom: 100px;
+}
+
+.img-bodyhead-2 img {
+    width: 400px;
+    box-shadow: 3px 3px rgb(3, 3, 95);
+}
+
+.paragrafo-div-bodyhead-2 {
+    width: 500px;
+    text-align: start;
+    font-size: 20px;
+    color: #1c1c1c;
+    padding: 0 20px;
+}
+
+.paragrafo-div-bodyhead-2 h1 {
+    padding: 10px 0;
+    color: rgb(3, 3, 95);
+    font-weight: bolde;
+}
+
+/*fim da segunda parte*/
+
+/*fim body-head*/
+
+/*sectio incon-and-text*/
+.icons-and-text {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(3, 3, 95);
+
+}
+
+.icons-text-1,
+.icons-text-2,
+.icons-text-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 0 50px;
+    color: #fff;
+}
+
+.icons-text-1 i,
+.icons-text-2 i,
+.icons-text-3 i {
+    font-size: 50px;
+}
+
+.text-1,
+.text-2,
+.text-3 {
+    text-align: start;
+    font-size: 18px;
+}
+
+/*fim icon and texto*/
+
+/*section arvore*/
+.img-rigth img {
+    width: 500px;
+}
+
+/*comments*/
+.comments {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 0 50px;
+    align-items: center;
+    margin: 50px 0;
+}
+
+#comments-text-titulo {
+    text-transform: uppercase;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    color: rgb(3, 3, 95);
+
+}
+
+.comments-img-perfil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.comments-text {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    width: 500px;
+    height: 300px;
+}
+
+#img-perfil {
+    border: 5px solid rgb(3, 3, 95);
+    border-radius: 5px;
+    width: 150px;
+    padding: 5px;
+}
+
+.buttons button {
+    width: 20px;
+    height: 20px;
+    border: 3px solid rgb(3, 3, 95);
+    background-color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: #1c1c1c;
+}
+
+/*fim comments*/
+
+.rodape {
+    width: 100%;
+    height: 2vh;
+    background-color: rgb(3, 3, 95);
+}
+
+/*fim do rodape*/
+
+/*banner*/
+/*quem somos*/
+.QuemSomos {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 10px;
+}
+
+.QuemSomos-text h1 {
+    margin-bottom: 10px;
+    font-size: 60px;
+}
+
+.QuemSomos-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 50%;
+    height: 550px;
+    text-align: start;
+    color: rgb(3, 3, 95);
+    padding: 10px;
+}
+
+.QuemSomos-text p {
+    color: rgb(3, 3, 97) !important;
+}
+
+.img-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+    height: 700px;
+}
+
+#img-planta-quem-somos {
+    border: 5px solid rgb(3, 3, 95);
+    border-radius: 50%;
+    width: 550px;
+    height: 550px;
+    padding: 10px;
+}
+
+/*icons*/
+.icons-quem-somos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 550px;
+}
+
+.icons-quem-somos p {
+    padding: 0 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.icons-quem-somos i {
+    padding: 0 30px;
+    font-size: 60px;
+}
+
+/*icons*/
+
+/*Nossa Historia*/
+.nossa-historia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(3, 3, 95);
+}
+
+.nossa-hostoria-title {
+    padding: 10px 0;
+    font-size: 30px;
+    color: #fff;
+}
+
+.nossa-hostoria-text {
+    display: flex;
+    padding: 10px;
+    height: 20vh;
+    text-align: center;
+}
+
+.nossa-hostoria-text p {
+    width: 100%;
+    color: #fff;
+    height: 20vh;
+}
+
+/*fim nossa historia*/
+
+/*form*/
+.contact-us {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-title h1 {
+    font-size: 60px;
+    color: rgb(3, 3, 95);
+}
+
+.icons-contato {
+    text-align: center;
+    padding: 10px;
+    width: 200px;
+}
+
+.icons-contato a {
+    padding: 10px;
+}
+
+.icons-contato a i {
+    font-size: 25px;
+    color: rgb(3, 3, 95);
+}
+
+.contact {
+    margin: 10px;
+    border: 2px solid rgb(172, 172, 172);
+    border-radius: 5px;
+}
+
+.form-contato {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 50px;
+    justify-content: center;
+    align-items: center;
+    height: 76.1vh;
+}
+
+.form-contato h1 {
+    padding: 10px 0;
+    font-size: 50px;
+    color: rgb(3, 3, 95);
+}
+
+.form-contato label {
+    color: rgb(3, 3, 95);
+}
+
+.form-contato input {
+    display: block;
+    width: 300px;
+    margin: 10px 0;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid rgb(3, 3, 95);
+    border-radius: 5px;
+}
+
+#textarea {
+    display: block;
+    border: 1px solid rgb(3, 3, 95);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#button {
+    display: block;
+    margin: 20px auto;
+    width: 300px;
+    height: 30px;
+    background-color: #fff;
+    color: #1c1c1c;
+    border: 1px solid rgb(3, 3, 95);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+#button:hover {
+    background-color: #1c1c1c;
+    color: #fff;
+}
+
+/*fim do contato*/
